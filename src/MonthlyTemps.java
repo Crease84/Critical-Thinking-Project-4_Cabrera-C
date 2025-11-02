@@ -38,7 +38,7 @@ public class MonthlyTemps {
 				yearAvg = yearAvg / NUM_MONTHS;
 				System.out.printf("Yearly Average: %.1f°F%n", yearAvg);
 				System.out.println("Monthly Maximum: July - 75.7°F");
-				System.out.println("Monthy Minimum: January - 28.2°F");
+				System.out.println("Monthly Minimum: January - 28.2°F");
 				}
 			else if (!userInput.equalsIgnoreCase("Quit")) {
 				for (int i = 0; i < months.length; i++) {
